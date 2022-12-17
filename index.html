@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <span class="leftNob"></span>
+    <span class="rightNob"></span>
+    <div class="container">
+        
+    </div>
+    <div class="options">
+        <h2>Settings</h2>
+        <hr />
+        <h3>Grid Size</h3>
+        <div class="optionsGridSize">
+            <span class="gridSizeNumber">15</span><span>x</span><span class="gridSizeNumber">15</span>
+        </div>
+        <input type="range" id="number" class="optionsGridNumber" min="1" max="100" value="15">
+        <hr />
+        <h3>Color Style</h3>
+        <form class="radioColorStyle">
+            <input type="radio" id="radioColor" name="options" value="Color" checked>
+            <label for="radioColor">Color</label>
+            <input type="radio" id="radioRainbow" name="options" value="Rainbow">
+            <label for="radioRainbow">Rainbow</label>
+        </form>
+
+        <input type="color" id="color" class="optionsColorWheel">
+
+        <hr />
+        <button class="optionsClearButton">Clear</button>
+    </div>
+    <h1>Etch-a-Sketch</h1>
+</body>
+</html>

@@ -1,0 +1,104 @@
+html {
+    background-color: lightgrey;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size:42px;
+    color: #fff;
+    position: relative;
+    top: 300px;
+    right: 800px;
+    min-width: 300px;
+}
+
+h2, h3, label {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.leftNob, .rightNob {
+    position: relative;
+    background-color: #fff;
+    min-width: 75px;
+    min-height: 75px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.leftNob {
+    left: 220px;
+    top: 300px;
+}
+
+.rightNob {
+    left: 640px;
+    top: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 100px solid #D21619;
+    border-radius: 75px;
+    background-color: #4974a5;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid grey;
+    width: 500px;
+    height: 500px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 180px;
+    margin: 50px;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 10px;;
+    background-color: #fff;
+
+}
+
+.optionsGridSize {
+    text-align: center;
+    font-size: 18px;
+}
+.optionsGridNumber {
+    height: 20px;
+    font-size: 20px;
+}
+
+.optionsColorText {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.optionsColorWheel {
+    width: 100%;
+}
+
+.optionsClearButton {
+    font-size: 22px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.colorpick-eyedropper-input-trigger {
+    display: none;
+}
